@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            gap: 5px;
+            height: 70vh;
+            width: 100vw;
+        }
+
+        div {
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+        }
+        button{
+            width: 282px;
+    height: 72px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <button>Click me</button>
+        <button onclick="history.back()">Go Back</button>
+    </aside>
+
+    <script>
+        var btn = document.querySelector("button");
+
+        btn.addEventListener("click", () => {
+
+            demo()
+
+        })
+
+        function generateRandom() {
+            var ans = `#${parseInt(Math.random() * 1000000)}`;
+
+            console.log(ans);
+            return ans
+        }
+        generateRandom()
+
+        function demo() {
+            var ans = document.querySelectorAll("div");
+            for (let i = 0; i < ans.length; i++) {
+                setTimeout(() => {
+                    console.log(i * 1000);
+                    ans[i].style.background = generateRandom();
+                }, i * 1000);
+            }
+        }
+    </script>
+</body>
+
+</html>

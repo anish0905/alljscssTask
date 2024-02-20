@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    button{
+     width: 282px;
+    height: 72px;
+    }
+    </style>
+</head>
+<body>
+    <button>Click me</button>
+    <script>
+                  var btn = document.querySelector("button");
+
+                  btn.addEventListener("click",()=>{
+                    generateRandom()
+
+                })
+                
+                
+                // btn.window.addEventListener("keyup",generateRandom);
+                // window.addEventListener("keydown",generateRandom);
+                // window.addEventListener("keypress",generateRandom);
+
+
+                  function generateRandom()
+                  {
+                    var ans = `#${parseInt(Math.random()*1000000)}`;
+                    document.body.style.background = ans;
+                    console.log(ans);
+                  }
+            
+    </script>
+</body>
+</html>

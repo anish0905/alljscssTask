@@ -1,0 +1,33 @@
+#thirdSection{
+    background-color: #fafafa;
+    
+    width: 100vw;
+    height: 120vh;
+    /* background-color: aqua; */
+
+}
+#imagethirdSection{
+    display: flex;
+    justify-content: space-around;
+}
+
+#imagethirdSection img
+{
+width: 290px;
+height: 600px;
+margin: 5px 5px 5px 5px;
+
+
+}
+
+#imagethirdSection h3{
+font-size: 25px;
+color: black;
+display: flex;
+justify-content: space-around;
+
+
+
+
+
+}

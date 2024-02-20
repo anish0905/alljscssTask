@@ -1,0 +1,33 @@
+@import url(nav.css);
+@import url(section.css);
+@import url(thirdSection.css);
+@import url(freeTemp.css);
+@import url(watchVideo.css);
+@import url(formSection.css);
+
+
+
+*{
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    
+}
+
+
+footer {
+  
+    background-color: #fafafa;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p{
+   
+    font-size: 20px;
+}
+

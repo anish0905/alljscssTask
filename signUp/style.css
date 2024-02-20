@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box; 
+}
+
+.container{
+ width: 100vw;
+ height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: nowrap;
+  
+
+ }
+ table{
+    width: 100vw;
+ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+ }
+
+ table tr{
+    width: 10px;
+    height: 56px;
+    
+ }
+
+ table input{
+    margin: 21px;
+    width: 246px;
+    height: 38px;
+ }
+
+ table label{
+    font-size: 30px;
+ }
+ table button{
+   font-size: 25px;
+ }

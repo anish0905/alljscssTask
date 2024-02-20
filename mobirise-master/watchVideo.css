@@ -1,0 +1,32 @@
+aside{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+#videoWatch h2{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+#videoWatch  strong{
+    font-family: 'Jost', sans-serif;
+    font-size: 3rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+ #videoWatch video{
+    margin: 0px 0px 0px 90px;
+    width: 800px;
+    height: 400px;
+
+}
+
+#videoWatch h5{
+    font-family: 'Jost', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 200;
+}

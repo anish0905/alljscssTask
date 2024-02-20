@@ -1,0 +1,112 @@
+@import url("dropDown.css");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#date{
+    /* background-color: aqua; */
+    display: flex;
+justify-content: flex-end;
+font-size: 20px;
+margin-right: 20px;
+
+color: aliceblue;
+    float: right;
+    
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: wheat;
+  
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+ 
+}
+
+nav ul li{
+ list-style: none;
+ font-size: 20px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main img{
+    width: 100%;
+}
+
+
+main button{
+   
+ 
+    position: relative;
+    bottom: 131px;
+    width: 76px;
+    height: 40px;
+}
+#btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img{
+width: 300px;
+height: 250px;
+background-repeat: no-repeat;
+
+}
+
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      
+    }
+    #btn{
+        display: none;
+    }
+
+    nav{
+       display: grid;
+       width: 100%;
+       
+       
+      
+    }
+    li{
+        display: none;
+    }
+
+    #date{
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: flex-end;
+        font-size: 20px;
+        margin-right: 135px;
+        color: aliceblue;
+        float: right;
+    } 
+
+
+
+
+  }

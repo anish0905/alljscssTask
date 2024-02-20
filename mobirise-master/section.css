@@ -1,0 +1,47 @@
+#firstSectionImg
+{
+    
+    background-image: url(image/bgimg.jpg);
+    width: 99vw;
+    height: 100vh;
+  
+}
+
+#firstSection{
+  
+margin-left: 50px;
+   
+    }
+
+  
+
+    #firstSection h1{
+        width: 463px;
+        font-size: 78px;
+        
+    }
+    #firstSection p{
+        font-size: 32px;
+        width: 704px;
+    }
+
+
+    
+.heading button
+{
+    margin: 40px 5px 5px 5px;
+    background-color: #ff7878;
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+#secondSection{
+   display: flex;
+   justify-content: center;
+   font-size: 30px;
+   margin: 10px 0px 25px 0px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+        button{
+            height: 50px;
+            width: 50px;
+            font-size: 15px;
+        }
+        input{
+            width:258px;
+            height: 25px;
+            margin: 0px 0px 10px 0px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+          background-color: aquamarine;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+    <input type="text" id="inputdata">
+    <div>
+        <button onclick="inputdata.value+=`1`">1</button>
+        <button onclick="inputdata.value+=`2`">2</button>
+        <button onclick="inputdata.value+=`3`">3</button>
+        <button onclick="inputdata.value+=`4`">4</button>
+        <button onclick="inputdata.value+=`5`">5</button>
+    </div>
+    <div>
+        <button onclick="inputdata.value+=`6`">6</button>
+        <button onclick="inputdata.value+=`7`">7</button>
+        <button onclick="inputdata.value+=`8`">8</button>
+        <button onclick="inputdata.value+=`9`">9</button>
+        <button onclick="inputdata.value+=`0`">0</button>
+    </div>
+    <div>
+        <button onclick="inputdata.value+=`+`">+</button>
+        <button onclick="inputdata.value+=`-`">-</button>
+        <button onclick="inputdata.value+=`/`">/</button>
+        <button onclick="inputdata.value+=`*`">*</button>
+        <button onclick="inputdata.value=eval(inputdata.value)">=</button>
+    </div>
+    <div>
+        <button onclick="inputdata.value=Math.sin(inputdata.value)">sin</button>
+        <button onclick="inputdata.value=Math.cos(inputdata.value)">cos</button>
+        <button onclick="inputdata.value=Math.tan(inputdata.value)">tan</button>
+        <button onclick="inputdata.value=Math.log2(inputdata.value)">log2</button>
+        <button onclick="inputdata.value=Math.log10(inputdata.value)">log10</button>
+    </div>
+    <div>
+        <button onclick="inputdata.value=``">clr</button>
+        <button onclick="inputdata.value=inputdata.value.slice(0,inputdata.value.length-1)">del</button>
+        <button onclick="inputdata.value=Math.pow(inputdata.value)">pow</button>
+        <button onclick="inputdata.value=Math.sqrt(inputdata.value)">sqrt</button>
+        <button onclick="inputdata.value=Math.cbrt(inputdata.value)">cbrt</button>
+    </div>
+</div>
+</body>
+</html>
